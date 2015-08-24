@@ -14,6 +14,7 @@
 		8CC75AA81B870F5300EA9C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC75AA61B870F5300EA9C97 /* LaunchScreen.xib */; };
 		8CC75AB41B870F5300EA9C97 /* MyFirstCoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC75AB31B870F5300EA9C97 /* MyFirstCoreDataDemoTests.swift */; };
 		8CC75ABE1B870FB100EA9C97 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC75ABD1B870FB100EA9C97 /* ListViewController.swift */; };
+		8CDDFB7E1B8979D80041DED1 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDDFB7D1B8979D80041DED1 /* People.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8CC75AB21B870F5300EA9C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CC75AB31B870F5300EA9C97 /* MyFirstCoreDataDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstCoreDataDemoTests.swift; sourceTree = "<group>"; };
 		8CC75ABD1B870FB100EA9C97 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8CDDFB7D1B8979D80041DED1 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8CC75A971B870F5300EA9C97 /* MyFirstCoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8CDDFB7D1B8979D80041DED1 /* People.swift */,
 				8CC75A9A1B870F5300EA9C97 /* AppDelegate.swift */,
 				8CC75AA11B870F5300EA9C97 /* Main.storyboard */,
 				8CC75AA41B870F5300EA9C97 /* Images.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDDFB7E1B8979D80041DED1 /* People.swift in Sources */,
 				8CC75A9E1B870F5300EA9C97 /* MyFirstCoreDataDemo.xcdatamodeld in Sources */,
 				8CC75ABE1B870FB100EA9C97 /* ListViewController.swift in Sources */,
 				8CC75A9B1B870F5300EA9C97 /* AppDelegate.swift in Sources */,
@@ -413,6 +417,7 @@
 				8CC75AB91B870F5300EA9C97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CC75ABA1B870F5300EA9C97 /* Build configuration list for PBXNativeTarget "MyFirstCoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				8CC75ABC1B870F5300EA9C97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
